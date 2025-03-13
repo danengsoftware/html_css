@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            Centimetro, Milimetro, Polegada, Pixel, Ponto, Paica
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            Altura M, Altura X, 
+            16px geralemnte  = 1em
+            */
+            font-size: 16px;
+            font-weight: normal ;
+            font-style: italic;
+            text-decoration: underline;
+            /* lighter, normal, bold, bolder, 100 a 900*/
+        }
+        h1{
+            
+            /* shorthand font 
+            
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            em vez de usar as 4 linhas, usar somente uma
+
+            - font-style -> font-weight -> font-size -> font-family */
+
+            font: italic bolder 3em helvetica;
+
+        }
+        h2 {
+            font: bold 2em helvetica;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel sunt praesentium culpa corporis deserunt ipsam doloremque ea in ratione quod suscipit beatae magni atque nulla, soluta iusto deleniti repudiandae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In sapiente numquam, ad quasi placeat rerum sunt corrupti facilis. Totam animi facilis asperiores vel deserunt rem nemo corporis, iusto velit suscipit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quidem numquam quae accusantium, aut vel dignissimos atque labore tempore modi nihil deserunt. Enim, tenetur eos nisi debitis ullam voluptatum esse.</p>
+
+    <h2>Subititulo do Exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias fugit veritatis qui exercitationem! Laudantium expedita nobis placeat voluptas eligendi ex, accusantium commodi unde amet maiores non beatae, atque dolorem iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum optio soluta assumenda illum suscipit. Autem, deleniti. Quo error ratione earum veritatis debitis modi mollitia temporibus molestiae, cumque aliquam nam perspiciatis.</p>
+    
+
+</body>
+</html>
