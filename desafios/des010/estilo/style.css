@@ -136,9 +136,8 @@ main a{
     color: var(--cor5);
     background-color: var(--cor1);
     padding: 2px 6px;
-    border-radius: 05px;
-   
-           
+    border-radius: 05px;  
+    
 }
 
 main a:hover{
